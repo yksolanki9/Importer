@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Importer</string>
+    <string name="hey">Hey 👋</string>
+    <string name="sub_heading">Import any image into the app</string>
+    <string name="content_desc">Selected Image</string>
 </resources>

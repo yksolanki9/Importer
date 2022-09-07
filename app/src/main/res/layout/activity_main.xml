@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Hey 👋"
+        android:text="@string/hey"
         android:textColor="@color/black_2"
         android:textSize="36sp"
         android:textStyle="bold" />
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_medium"
-        android:text="Import any image into the app"
+        android:text="@string/sub_heading"
         android:textSize="22sp"
         android:layout_marginTop="16dp"
         android:textColor="@color/black_2"
@@ -36,6 +36,6 @@
         tools:src="@drawable/img"
         android:background="@drawable/bg_border"
         android:padding="6dp"
-        />
+        android:contentDescription="@string/content_desc" />
 
 </LinearLayout>
