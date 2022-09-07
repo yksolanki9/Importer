@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
             if(it.action == Intent.ACTION_SEND) {
                 it.type?.let { intentType ->
                     if(intentType.startsWith("image")) {
-                        val test = intent.getParcelableExtra<Uri>(Intent.EXTRA_STREAM)
-                        imageView?.setImageURI(test)
+                        val imageUri = intent.getParcelableExtra<Uri>(Intent.EXTRA_STREAM)
+                        imageView?.setImageURI(imageUri)
                         textContent?.text = "Here's your selected image"
                     }
                 }
