@@ -1,4 +1,4 @@
-package com.example.sharekaro
+package com.example.importer
 
 import org.junit.Test
 
